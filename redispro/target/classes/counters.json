@@ -1,0 +1,74 @@
+{
+  "counters": [
+    {
+      "counterName": "increaseCounter",
+      "counterIndex": "index1",
+      "type": "Num",
+      "keyFields": "counterNumUser",
+      "valueFields": "4"
+    },
+    {
+      "counterName": "decreaseCounter",
+      "counterIndex": "index2",
+      "type": "Num",
+      "keyFields": "counterNumUser",
+      "valueFields": "-2"
+    },
+    {
+      "counterName": "setStrCounter",
+      "counterIndex": "index3",
+      "type": "String",
+      "keyFields": "CounterStrUser",
+      "valueFields": "testStr"
+    },
+    {
+      "counterName": "addListCounter",
+      "counterIndex": "index4",
+      "type": "List",
+      "keyFields": "CounterListUser",
+      "valueFields": "testListStr"
+
+    },
+    {
+      "counterName": "addSetCounter",
+      "counterIndex": "index5",
+      "type": "Set",
+      "keyFields": "CounterSetUser",
+      "valueFields": "testSetStr"
+    },
+    {
+      "counterName": "remSetCounter",
+      "counterIndex": "index6",
+      "type": "Set",
+      "keyFields": "CounterSetUser",
+      "valueFields": "testSetStr"
+    },
+    {
+      "counterName": "showFreqCounter",
+      "counterIndex": "index7",
+      "type": "Freq",
+      "keyFields": "12010100-12010900"
+    },
+    {
+      "counterName": "incrFreqCounter",
+      "counterIndex": "index8",
+      "type": "Freq",
+      "keyFields": "12010900",
+      "valueFields": "1"
+    },
+    {
+      "counterName": "userEnterTimeCounter",
+      "counterIndex": "index9",
+      "type": "Set",
+      "keyFields": "FreqTestUser",
+      "valueFields": "12010400"
+    },
+    {
+      "counterName": "userIncrFreqCounter",
+      "counterIndex": "index10",
+      "type": "Freq",
+      "keyFields": "12010400",
+      "valueFields": "FreqTestUser"
+    }
+  ]
+}

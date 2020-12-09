@@ -1,0 +1,133 @@
+{
+  "actions": [
+    {
+      "name": "increase",
+      "describe": "计数增加",
+      "retrieve": [
+        {
+          "counterName": "numShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "increaseCounter"
+        }
+      ]
+    },
+    {
+      "name": "decrease",
+      "describe": "计数减少",
+      "retrieve": [
+        {
+          "counterName": "numShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "decreaseCounter"
+        }
+      ]
+    },
+    {
+      "name": "setStr",
+      "describe": "设置String",
+      "retrieve": [
+        {
+          "counterName": "strShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "setStrCounter"
+        }
+      ]
+    },
+    {
+      "name": "addList",
+      "describe": "List添加String",
+      "retrieve": [
+        {
+          "counterName": "listShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addListCounter"
+        }
+      ]
+    },
+    {
+      "name": "addSet",
+      "describe": "Set添加String",
+      "retrieve": [
+        {
+          "counterName": "setShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addSetCounter"
+        }
+      ]
+    },
+    {
+      "name": "remSet",
+      "describe": "Set删除String",
+      "retrieve": [
+        {
+          "counterName": "setShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "remSetCounter"
+        }
+      ]
+    },
+    {
+      "name": "showFreq",
+      "describe": "Freq进入人次显示",
+      "retrieve": [
+        {
+          "counterName": "freqShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "showFreqCounter"
+        }
+      ]
+    },
+    {
+      "name": "incrFreq",
+      "describe": "Freq进入人数计数",
+      "retrieve": [
+        {
+          "counterName": "freqShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "incrFreqCounter"
+        }
+      ]
+    },
+    {
+      "name": "UserIncrFreq",
+      "describe": "Freq内user进入计数",
+      "retrieve": [
+        {
+          "counterName": "freqShowCounter"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "userEnterTimeCounter"
+        },
+        {
+          "counterName": "userIncrFreqCounter"
+        }
+      ]
+    }
+  ]
+}
